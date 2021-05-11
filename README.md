@@ -13,7 +13,6 @@ II. Overview of GUIDER
 
 ![The overview bug fixing process with GUIDER.\label{step}](./figure/tool.png)
 
-<img src="./figure/algorithm.png" width="500">
 
 
 III. Run the Service of Appium
@@ -47,14 +46,14 @@ You need just start a service by default in Appium
  V. Structure of the Directories
  -------------------------------
  ```powershell
-  |--- README.md               :  us
-  |--- APK                     :  D
-  |--- Test Sscripts         :  Failed test
-  |--- TimeCopy jsonCopy                     :  GZol
-  |--- GUIDERResults                 :  Gener
-  |----MeterResults          :  Bugs f
-  |----WaterResults            :  Bugs f
-  |----guider            :  B
+  |--- README.md               :  readme file
+  |--- ApkTestScript           :  test scripts broken in the updated version app
+  |--- apk.zip                 :  apk files of both the based and updated versions' apps
+  |--- Results                 :  experiment results 
+  |--- guider_output           :  output of guider strategy
+  |----meter_output            :  output of meter strategy
+  |----water_output            :  output of water strategy
+  |----main            	       :  executable file 
 ```
 
 ----
