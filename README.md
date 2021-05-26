@@ -28,6 +28,8 @@ You need just start a service by default in Appium
  
  V. Run GUIDER
  ------------
+0. Create the root directory, e.g., `/Users/nju/Documents/issta-artifact/`, and then `git clone https://github.com/xtt5480446/GUIDER.git`; Anyway assure `ApkTestScript` is under your root directory.
+ 
 1. Given an app, record the dynamic testing results including imgs and layout files of the based version, with the command `guider -a <App_Name> -c <Script_Name> -r <Root_Path> -o <Based_Version_Path> -n <Updated_Version_Path> -v <Based_Phone_Version> -w <Updated_Phone_Version> -p <App_Package> -t <App_Activity> -l <Repair_Strategy>`
 	- Example:  `guider -a 'google driver 1' -c 'google driver 1' -r /Users/nju/Documents/issta-artifact/ -o /Users/nju/Desktop/apk/app-fdroid-debug-old.apk -n /Users/nju/Desktop/apk/app-fdroid-debug-new.apk -v 7.0 -w 10 -p 'com.google.android.apps.docs' -t 'com.google.android.apps.docs.app.NewMainProxyActivity' -l guider`
 	- Explaination: The parameter `-a` represents the app is named as `google driver 1`, the parameter `-c` represents the script is named as `google driver 1.py`, the parameter `-v` represents the android version of the phone used to test the based version app (7.0 in this example), the parameter `-w` represents the android version of the phone used to test the updated app (10 in this example), and the parameter `-l` represents the repair strategy to apply (water, meter and guider).
