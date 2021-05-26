@@ -32,18 +32,17 @@ You just need to start a service by default in Appium.
 
    After the updated version app has been installed, press the Enter button in the keyboard to start the repair process.
 
-If the execution fails because of the paths of <Bug_Data_Path> and <defects4j_Home>, please use their absolute paths.
 
 ## V. Structure of the Directories
 
 ```
  |--- README.md               :  readme file
  |--- ApkTestScript           :  broekn test scripts of the updated version app
- |--- apk.zip                 :  apk files of both the base and updated versions of the apps
+ |--- apk                     :  apk files of both the base and updated versions of the apps
  |--- Results                 :  experiment results 
  |--- guider_output           :  outputs of Guider strategy
  |----meter_output            :  outputs of Meter strategy
  |----water_output            :  outputs of Water strategy
- |----main            	      :  executable file 
+ |----Main            	      :  executable file 
 ```
 
